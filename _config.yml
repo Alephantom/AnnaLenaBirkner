@@ -1,0 +1,18 @@
+title: "John Doe - Product Manager Portfolio"
+description: "Showcasing my expertise, projects, and experience as a Product Manager."
+baseurl: ""
+url: "https://yourusername.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation Links
+nav_links:
+  - name: Home
+    url: /
+  - name: About
+    url: /about/
+  - name: Projects
+    url: /#projects
+  - name: Contact
+    url: /#contact

@@ -1,0 +1,13 @@
+<header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          {% for link in site.nav_links %}
+          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
